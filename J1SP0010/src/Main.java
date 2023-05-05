@@ -22,7 +22,7 @@ public class Main {
         if(index == -1)
             System.out.print("\nNot found the value in array!");
         else   
-            System.out.print("\nFound 5 at index: " + index);
+            System.out.print("\nFound " + searchValue + " at index: " + index);
     }
 
     private static int getInt(String msg) {
